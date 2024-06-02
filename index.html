@@ -44,7 +44,11 @@ footer{
     text-align: center;
     padding: 10px;
 }
- 
+ @media (max-width: 768px) {
+   #gambar img{
+     width: 450px;
+   }
+}
     </style>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -131,7 +135,7 @@ footer{
               </div>
             </div>
 
-            <div class="row justify-content-center">
+            <div class="row justify-content-center" id="gambar">
               <div class="col-md-6 mb-3">
                 <div class="card">
   <img src="img/2.png" alt="1" height="300px" width="550px">
